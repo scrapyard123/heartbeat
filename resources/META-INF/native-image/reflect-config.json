@@ -1,0 +1,7 @@
+[
+{
+  "name":"java.io.FileReader",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+}
+]

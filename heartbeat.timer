@@ -1,0 +1,10 @@
+[Unit]
+Description=run heartbeat periodically
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=1min
+Unit=heartbeat.service
+
+[Install]
+WantedBy=timers.target
